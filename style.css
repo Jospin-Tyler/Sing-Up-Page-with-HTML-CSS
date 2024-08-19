@@ -6,9 +6,15 @@
     text-decoration: none;
 }
 
+
+
 body {
     background-color: rgba(125, 192, 221, 0.751);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    display: block;
 }
 
 .container {
@@ -43,7 +49,8 @@ input {
     padding: 10px;
     margin: 17px;
     width: 320px;
-    border-radius: 5px;
+    background-color: transparent;
+    border-bottom: 2px solid whitesmoke;
 }
 
 .btn {
@@ -52,6 +59,8 @@ input {
     transition: .3s;
     font-size: 1rem;
     color: whitesmoke;
+    border: 1px solid transparent;
+    border-radius: 7px;
 
 }
 
@@ -60,5 +69,22 @@ input {
     cursor: pointer;
     color: rgba(235, 209, 209, 0.758);
     scale: 0.9999999;
+
+}
+
+header a {
+    text-align: center;
+    color: brown;
+    text-decoration: underline;
+}
+
+header a:hover {
+    color: rgb(33, 9, 9);
+}
+
+label {
+    color: white;
+    display: block;
+    margin-left: 10px;
 
 }
